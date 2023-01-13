@@ -1,0 +1,9 @@
+[
+    {"id": "træer", "group": "træer", "extract": ["Bark", "Saft", "Blade"], "form": ["Salve"]},
+    {"id": "urter","group": "urter", "extract": ["Blomster", "Blade"], "form": ["Indtagelse","Salve", "Indhalering"]},
+    {"id": "græsser og siv","group": "græsser og siv", "extract": ["Rødder", "Hele", "Hele"], "form": ["Indtagelse"]},
+    {"id": "buske","group": "buske", "extract": ["Frø", "Blade"], "form":["Indtagelse", "Indhalering"]},
+    {"id": "bregner","group": "bregner", "extract": ["Blade"], "form": ["Indtagelse"]},
+    {"id": "alger","group": "alger", "extract": ["Hele (tørret)"], "form": ["Indtagelse", "Salve"]},
+    {"id": "svampe","group": "svampe", "extract": ["Hele (tørret)", "Hele"], "form": ["Indtagelse", "Indhalering"]}
+]

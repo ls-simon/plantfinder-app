@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inspiration&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.terrain-image {
+	width: 200px;
+	
+}
+.menu-header {
+	filter: invert(1);
+}
+.terrain-image-small {
+	max-width: 100px;
+}
+.container-dc {
+	position: relative;
+ }
+ input::placeholder {
+	font-size: 15px;
+	line-height: 100px;
+	
+	text-align: center;
+	transform: translate(0, -70%);
+}
+ .center-dc-input {
+	position: absolute;
+	left: 50%;
+	top: 46%;
+
+	transform: translate(-50%, -50%);
+	font-size: 70px;
+	max-width: 20%;
+	max-height: 20%;
+	background-color: rgba(0,0,0,0.1);
+	
+ }
+ 
+.top-right-alert {
+
+
+	position: absolute;
+	right: 10%;
+	top: 6%;
+	max-width: 400px;
+	min-width: 370px;
+
+
+
+}
+.htop {
+	vertical-align: top;
+}
+.center-btn-terrain {
+	
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+	
+	
+
+}
+
+
+ .center-dc-btn {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+
+	transform: translate(-50%, -50%);
+	font-size: 40px;
+	max-width: 10%;
+	max-height: 0%;
+	background-color: rgba(0,0,0,0.1);
+ }
+ 
+
+.index {
+		--accent: #8855ff;
+		width: 100vw;
+		height: 100vh;
+		background: #fff;
+		overflow: hidden;
+		padding: 0;
+		margin: 0;
+		display: flex;
+		justify-content: center;
+		align-items: center;  
+}
+
+.bg-1 {
+	background-image: url('./images/bg/bg-1.jpeg');
+	filter: brightness(85%);
+	background-size: cover;
+	background-position: top center;
+}
+.bg-front {
+	background-image: url('./images/bg/bg.jpeg');
+	filter: brightness(85%);
+	background-size: cover;
+	background-position: top center;
+}
+.bg-2 {
+	background-image: url('./images/bg/bg-2.jpeg');
+	filter: brightness(85%);
+	background-size: cover;
+	background-position: top center;
+}
+.bg-3 {
+	background-image: url('./images/bg/bg-3.jpeg');
+	filter: brightness(85%);
+	background-size: cover;
+	background-position: top center;
+}
+
+.darkened-bg {
+	filter: brightness(20%);
+}
+.pf-font {
+	font-family: 'Inspiration', cursive;
+  }
+
+.eb-font {
+	font-family: 'EB Garamond', serif;
+}
+
+  main {
+	font-family: 'EB Garamond', serif;
+  }
+
+  p {
+	font-family: 'EB Garamond', serif;
+  }
+
+
+
+  
