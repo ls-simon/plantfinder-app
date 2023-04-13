@@ -1,9 +1,9 @@
 # PlantFinder
 
-Main branch is deployed at: https://plantfinder.vercel.app/
+
 
 <p align="center">
-    <a href="https://plantfinder.vercel.app/">
+    <a href="">
         <img src="https://i.imgur.com/WcnHtDQ.png" alt="PlantFinder" />
     </a>
 </p>
